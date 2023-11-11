@@ -1,0 +1,36 @@
+.user__article {
+    width: 100%;
+    max-width: 22em;
+    border-radius: 0.4em;
+    padding: 0.8em;
+    border: 1px solid black;
+    background-color: #0003
+}
+
+.user__h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__container{
+    display: flex;
+    justify-content: center;
+}
+.user__btn1 {
+    
+    background-color: rgba(54, 54, 150, 0.753);
+    color: white;
+    border-radius: 0.2em;
+    margin-top: 1em; 
+    margin-right: 15px;
+}
+.user__btn2 {
+    
+    background-color: rgba(54, 54, 150, 0.753);
+    color: white;
+    border-radius: 0.2em;
+    margin-top: 1em; 
+}
+    
+    
