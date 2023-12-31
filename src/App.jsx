@@ -11,7 +11,7 @@ function App() {
   const [isDisable, setIsDisable] = useState(false)
 
 
-  const url = 'http://localhost:8080'
+  const url = 'https://api-dev-naph.3.us-1.fl0.io'
   const [users, getUsers, createUser, deleteUser, updateUser ] = useCrud(url)
 
 useEffect(() => {
