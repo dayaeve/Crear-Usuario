@@ -17,7 +17,7 @@ const useCrud = (baseUrl) => {
         axios.post(url, data)
         .then(res => {
             console.log(res.data)
-            setInfoApi(...infoApi, res.data)
+            setInfoApi([...infoApi, res.data])
         })
         .catch(err => console.log(err))
     }

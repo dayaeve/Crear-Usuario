@@ -11,7 +11,7 @@ function App() {
   const [isDisable, setIsDisable] = useState(false)
 
 
-  const url = 'https://users-crud.academlo.tech'
+  const url = 'http://localhost:8080'
   const [users, getUsers, createUser, deleteUser, updateUser ] = useCrud(url)
 
 useEffect(() => {

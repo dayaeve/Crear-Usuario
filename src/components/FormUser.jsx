@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect} from "react"
 import { useForm } from "react-hook-form"
 import './styles/FormUser.css'
 const FormUser = ({ createUser, infoUpdate, updateUser, setInfoUpdate, isDisable ,setIsDisable }) => {
